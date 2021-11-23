@@ -1,0 +1,278 @@
+*{  box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+h3{
+    font-size: 24px;
+    margin: 20px 0px;
+}
+p{
+    font-size: 12px;
+}
+
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5%;
+}
+
+
+header div.logo{
+    width: 50%;
+}
+
+header{
+    background-color: #EAC926;
+    padding: 10px;
+}
+
+header div.logo{
+    width: 50%;
+}
+
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.copy-header{
+    font-weight: 400;
+    
+}
+.main-navbar{
+    display: none;
+}
+
+.main-navbar a{
+display: inline-block;
+font-size: 17px;
+padding: 5px;
+}
+
+
+@media (min-width: 481px){
+    .top-header {
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-around;
+     }
+    }
+    .logo img {
+        width: 100%;
+    }
+
+    @media (min-width: 370px){
+         .copy-header {
+        font-size: 90%;
+        text-align: right;
+        max-width: 350px;
+    }
+    }
+@media(min-width:768px){
+.logo{
+    display: flex;
+    justify-content:space-between;
+    }
+    .p .copy-header{
+        text-align: right;
+        display: flex;
+    }
+
+    .lupa{
+        display: flex;
+        width: 260%;
+        height: 35px;
+        border-radius: 5px;
+        border:white solid; 
+        align-items: center;
+    }
+
+    div.form{
+        display: flex;
+        position: relative;
+        align-items: center;
+        right: 25%;
+    }
+    
+    .burger-menu{
+        display: none;
+    }
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul{
+        display: flex;
+    }
+    .main-navbar li{
+        margin: 0px 5px;
+    }
+}
+
+@media(min-with:1200px){
+    .logo{
+        display: flex;
+        width: 250px;
+    }
+    .main-header-top-bar, .main-navbar{
+        max-width: 1200px;
+        margin:auto;
+    }
+    .p .copy-header{
+        max-width: none;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .main-navbar li{
+        margin: 0 10px;
+    }
+    .main-navbar a{
+        font-size: 19px;
+    }
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+header .form .input{
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: auto;
+    padding: 10px;
+    width: 40px;
+    display: block;
+}
+main section article img{
+    width: 100%;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.botone{
+    background-color:#39b54a;
+    border:#39b54a;
+    color: white;
+    border-radius: 5px;
+    position: relative;
+    width: 10%;
+    height: 40px;
+}
+.botone:hover{
+    background-color: blue;
+    }
+
+h4 ,.fecha{
+    top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    color: gray;
+    margin: 20px;
+} 
+
+div.Intereses{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30%;
+    margin: 0 auto;                                                                                           
+}
+
+.botone1{
+    width: 35%;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    border:white solid;
+    
+}
+.register form{
+text-align: center;
+justify-content: center;
+}
+
+
+.description{
+    font-size: 16px;
+}
+
+h3,.description{
+    color: #666;
+}
+@media (min-width: 769px){
+    .container-footer-article {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        box-shadow: none;
+        margin: 0 auto;
+        align-items: stretch;
+    }}
+    
+    @media (min-width: 360px){
+    .footer article {
+        width: 80%;
+        box-shadow: none;
+        margin: 2% auto;
+        padding: 10px;
+    }
+    footer h5{
+        margin: 50px 0;
+    }
+    }
+    footer{
+        background-color:white;
+        text-align: center; 
+        font-size: 16px;
+    }
+    
+    footer article i{
+        color: blue;
+        font-size: 35px;
+        width: 35px;
+    }
+    .footer article:hover i{
+        color: #39b54a;
+        }
+    
+    main section article:hover .description{
+        display:block ;  
+    }
+    
+    h4.description{
+        display:none;
+        margin-top: 20px;
+    }
+    
+    footer article h3{
+        font-weight: bold;
+    }
